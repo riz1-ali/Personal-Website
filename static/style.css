@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	height: 100%;
+}
+#r{
+  font-size: 400%;
+}
+.parallax { 
+    background-image: url("../images/bb1.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-size: 300%;
+}
+#icox{
+	border-radius: 50%;
+	height: 15%;
+	width: 15%;
+}
+.rl{
+  animation: move 8s;
+  -webkit-animation: move 8s;
+}
+@keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+            
+@-webkit-keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+ }
+ .topnav {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.parallal {
+    background-image: url("../images/by.jpg");
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    font-size: 250%;
+}
+.Approach{
+	background-color: #334;
+  	text-align: center;
+  	color: white;
+  	font-size: 225%;
+}
+.icon{
+	border-radius: 50%;
+	height: 6.5%;
+	width: 6.5%;
+}
+.icon1{
+	border-radius: 50%;f
+	height: 6.5%;
+	width: 6.5%;	
+}
